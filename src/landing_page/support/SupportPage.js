@@ -1,10 +1,14 @@
 import React from "react";
+import CreateTicket from "./CreateTicket";
+import Hero from "./Hero";
 
 function SupportPage(){
-    return
-    (
-        <h1>SupportPage</h1>
-    )
+    return (
+        <div>
+    <Hero />
+    <CreateTicket />
+    </div>
+    );
 }
 
 export default SupportPage;
