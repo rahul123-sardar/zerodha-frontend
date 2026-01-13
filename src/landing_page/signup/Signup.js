@@ -11,7 +11,7 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://zerodha-backend-1-fidb.onrender.com//signup", {
+      const response = await fetch("https://zerodha-backend-1-fidb.onrender.com/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
