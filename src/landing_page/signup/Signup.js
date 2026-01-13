@@ -11,7 +11,7 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3002/signup", {
+      const response = await fetch("https://zerodha-backend-1-fidb.onrender.com//signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -23,7 +23,7 @@ function Signup() {
 
       if (response.ok) {
         alert(message); // "Signup successful"
-        navigate("http://localhost:3001/");  // go to home
+        navigate("https://zerodha-dashboard-3mki.onrender.com");  // go to home
       } else {
         alert(message); // "Email already exists"
       }
