@@ -23,7 +23,7 @@ function Signup() {
 
       if (response.ok) {
         alert(message); // "Signup successful"
-        navigate("https://zerodha-dashboard-3mki.onrender.com");  // go to home
+        navigate("https://zerodha-dashboard1.vercel.app/");  // go to home
       } else {
         alert(message); // "Email already exists"
       }
